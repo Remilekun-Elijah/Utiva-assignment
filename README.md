@@ -10,7 +10,7 @@ This api should allow the following actions to be done:
 - [ ] Delete a user
 
 ##### *Bonus*
-> To make all the request complete
+> To make all the requests complete
 - [ ] Retrieve a single user using their id
 
 
