@@ -19,7 +19,8 @@ app.get('/', (req, res) => {
 
 app.use('/', route)
 
+const port = process.env.PORT || 3000;
 
-app.listen(3000, function () {
-  console.log('Server started on port 3000');
+app.listen(port, function () {
+  console.log(`Server started on port ${port}`);
 })
